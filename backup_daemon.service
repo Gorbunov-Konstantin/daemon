@@ -1,0 +1,9 @@
+[Unit]
+Description=Демон для регулярного резервного копирования
+
+[Service]
+Type=simple
+ExecStart=/home/kosty/"Рабочий стол"/backup
+
+[Install]
+WantedBy=multi-user.target
